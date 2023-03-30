@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Phonebooth</title>
+    <meta name="description" content="This is an interactive and informational website created for the Trenton Free Public Library Trentoniana exhibit. It aims to bring to life one of 
+        the many items at the exhibit that have a story to be told.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/d685db330b.js" crossorigin="anonymous"></script>
+
+
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fonts -->
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/Site-Icon.svg" style="width: 56px;" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">Phonebooth</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.trentonlib.org/trentoniana/" target="_blank">Trentoniana<i
+                                class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- About Section -->
+    <div class="site-wrapper">
+
+        <section class="about-section">
+            <div class="banner">
+                <h1 class="container-fluid" id="about">The Phonebooth Project</h1>
+            </div>
+            <div class="container-fluid body-text">
+                <div class="how-to">
+                    <h1 id="project-header">How to Interact</h1>
+                    <p>Below you will see a depiction of the phonebooth found in the Trentoniana Room. In its current
+                        state, it is run-down
+                        and dilapidated. Usually, there would be functioning accordion doors and a payphone hooked up on
+                        the interior that
+                        anyone could use.
+                    </p>
+                    <p>Beside the phonebooth, there are clickable sound files that you can listen to. This is as close
+                        as you can possibly get
+                        to hearing the calls that might have taken place here!
+                    </p>
+                </div>
+
+                <div class="interact-container row">
+                    <div class="phonebooth col-lg-6"></div>
+
+                    <div class="audio-clips row col-lg-6">
+                        <div class="clips">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                                <div class="carousel-inner text-center d-flex">
+                                    <div class="carousel-item active">
+                                        <div class="clip d-block w-100 john">
+                                            <h5 class="clip-title">Listen to John call his mother about his exciting new
+                                                job!</h5>
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Click to listen
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title d-flex align-items-center"
+                                                                id="exampleModalLabel">John's New Job
+                                                            </h5>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <figure class="mb-5">
+                                                                <img class="modal-img" src="img/gm_plant.jpg" alt="">
+                                                                <figcaption>Image credit: <a href="https://fvhdpc.com/portfolio/details.aspx?projectid=887" target="_blank">Fraytak Veisz Hopkins Duthie, P.C.</a> </figcaption>
+                                                              </figure>
+                                                            <audio controls>
+                                                                <source src="media/john.mp3" type="audio/mpeg">
+                                                              Your browser does not support the audio element.
+                                                              </audio>
+                                                            
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+
+                                        <div class="clip mary d-block w-100">
+                                            <h5 class="clip-title">John and Mary have some date plans. Have a listen!</h5>
+                                                <button type="button" class="btn" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal2">
+                                                Click to listen
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal2" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title d-flex align-items-center"
+                                                                id="exampleModalLabel2">John and Mary's Date
+                                                            </h5>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <figure class="mb-5">
+                                                                <img class="modal-img" src="img/1_commonwealth_mg74qv603_image_access_800.jpg" alt="">
+                                                                <figcaption>Image credit: <a href="https://www.digitalcommonwealth.org/search/commonwealth:mg74qv603" target="_blank">Digital Commonwealth</a></figcaption>
+                                                              </figure>
+                                                            
+                                                            <audio controls>
+                                                                <source src="media/thedate.mp3" type="audio/mpeg">
+                                                              Your browser does not support the audio element.
+                                                              </audio>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="clip kit d-block w-100">
+                                            <h5 class="clip-title">Jill wants to hang out with her friend. Hear what she has to say!</h5>
+                                            <button type="button" class="btn" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal3">
+                                                Click to listen
+                                            </button>
+                                            <div class="modal fade" id="exampleModal3" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title d-flex align-items-center"
+                                                            id="exampleModalLabel3">Jill's Activity
+                                                        </h5>
+                                                        <button type="button" class="btn-close"
+                                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                
+                                                        <audio controls>
+                                                            <source src="media/barb.mp3" type="audio/mpeg">
+                                                          Your browser does not support the audio element.
+                                                          </audio>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </section>
+    </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

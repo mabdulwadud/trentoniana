@@ -1,0 +1,139 @@
+.site-wrapper{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container-fluid{
+    padding: 7px 15%;
+}
+
+.banner{
+    background-color:#246ba1 ;
+    padding: 15px 0 15px 0;
+}
+
+.how-to{
+    margin-bottom: 5rem;
+}
+
+h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+#project-header{
+    color: #263051;
+    font-size: 40px;
+    margin-top: 2rem;
+}
+
+.link-to{
+    text-decoration: none;
+    color: #246ba1;
+    transition: .2s;
+}
+
+.link-to:hover{
+    cursor: pointer;
+    color: #031624;
+}
+
+.carousel{
+    margin-top: 30%;
+}
+
+.phonebooth{
+    height: 50vh;
+    background-image: url("img/booth.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.audio-clips{
+    background-color: rgba(36, 107, 161);
+    border-radius: 25px;
+}
+
+.clip{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+}
+
+.btn{
+    background-color: #2fdae0;
+}
+
+.btn:hover{
+    background-color: #218083;
+}
+
+.clip-title{
+    color: #fff;
+    font-size: 24px;
+}
+
+
+.modal-img{
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+@media (max-width: 476px){
+    body {
+        width: 100vw;
+        place-content: center;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    h1, #project-header {
+        font-size: 24px;
+    }
+
+    .interact-container{
+        display: block;
+    }
+
+    #phonebooth{
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 800px){
+    body {
+        width: 100vw;
+        display: block;
+        place-content: center;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    h1, #project-header {
+        font-size: 24px;
+    }
+    
+    .interact-container{
+        display: block;
+        margin: 0 auto;
+    }
+
+    #phonebooth{
+        width: 100vw;
+        height: 100vh;
+    }
+
+
+    
+}
