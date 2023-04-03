@@ -133,7 +133,17 @@ p{
         width: 100vw;
         height: 100vh;
     }
+    .sources{
+        text-align: center;
+    }
 
 
-    
+    ul{
+        list-style: none;
+    }
+
+    li{
+        text-decoration: none;
+        list-style: none;
+    }
 }
