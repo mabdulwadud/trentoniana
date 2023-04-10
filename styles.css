@@ -96,17 +96,14 @@ p{
 
     h1, #project-header {
         font-size: 24px;
+        
     }
 
-    .interact-container{
-        display: block;
-    }
 
     #phonebooth{
+        display: block;
         width: 100%;
     }
-
-    
 }
 
 @media (max-width: 800px){
@@ -133,7 +130,4 @@ p{
         width: 100vw;
         height: 100vh;
     }
-
-
-    
 }
