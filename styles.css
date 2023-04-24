@@ -1,89 +1,98 @@
-.site-wrapper{
+.site-wrapper {
     margin: 0;
     overflow-x: hidden;
 }
 
-.container-fluid{
+.container-fluid {
     padding: 7px 15%;
 }
 
-.banner{
-    background-color:#246ba1 ;
+.banner {
+    background-color: #246ba1;
     padding: 15px 0 15px 0;
 }
 
-.how-to{
+.how-to {
     margin-bottom: 5rem;
 }
 
-h1{
+h1 {
     color: #fff;
     font-weight: 700;
     font-size: 48px;
 }
 
-p{
+.about-text {
     font-size: 20px;
     margin-top: 2rem;
 }
 
-#project-header{
+#project-header {
     color: #263051;
     font-size: 40px;
     margin-top: 2rem;
 }
 
-.link-to{
+.link-to {
     text-decoration: none;
     color: #246ba1;
     transition: .2s;
 }
 
-.link-to:hover{
+.link-to:hover {
     cursor: pointer;
     color: #031624;
 }
 
-.carousel{
+.carousel {
     margin-top: 30%;
 }
 
-.phonebooth{
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.phonebooth {
     height: 50vh;
     background-image: url("img/booth.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
-.audio-clips{
+
+.audio-clips {
     background-color: rgba(36, 107, 161);
     border-radius: 25px;
 }
 
-.clip{
+.clip {
     position: relative;
     display: flex;
     margin: 0 auto;
 }
 
-.btn{
+.btn {
     background-color: #2fdae0;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #218083;
 }
 
-.clip-title{
+.clip-title {
     color: #fff;
     font-size: 24px;
 }
 
 
-.modal-img{
+.modal-img {
     width: 100%;
     margin-bottom: 12px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> updatev2
 .footer {
     background-color: #031624;
     height: 100%;
@@ -112,29 +121,72 @@ p{
     color: #ffffff;
 }
 
+<<<<<<< HEAD
 @media (max-width: 476px){
+=======
+
+.credential,
+.sitemap-title {
+    color: #677178;
+}
+
+@media (max-width: 600px) {
+>>>>>>> updatev2
     body {
         width: 100vw;
         place-content: center;
     }
 
-    p{
-        font-size: 18px;
+    .about-text {
+        font-size: 12px;
     }
 
-    h1, #project-header {
+    h1,
+    #project-header {
         font-size: 24px;
         
     }
 
+<<<<<<< HEAD
 
     #phonebooth{
         display: block;
         width: 100%;
     }
+=======
+    .interact-container {
+        display: block;
+    }
+
+    #phonebooth {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+        font-size: 12px;
+    }
+
+   .container-fluid{
+        padding: 5% 0 5% 0;
+    }
+
+    .footer li {
+        list-style: none;
+        font-size: 8px;
+    }
+
+    .footer a {
+        text-decoration: none;
+        color: #a0a0a0;
+    }
+
+
+
+>>>>>>> updatev2
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
     body {
         width: 100vw;
         display: block;
@@ -142,29 +194,32 @@ p{
         place-content: center;
     }
 
-    p{
+    p {
         font-size: 18px;
     }
 
-    h1, #project-header {
+    h1,
+    #project-header {
         font-size: 24px;
     }
-    
-    .interact-container{
+
+    .interact-container {
         display: block;
         margin: 0 auto;
     }
 
-    #phonebooth{
+    #phonebooth {
         width: 100vw;
         height: 100vh;
     }
-    
-    .carousel-item{
-        padding: 0px 12px 0px 12px;
+
+    .sources {
+        text-align: center;
     }
 
-    .audio-clips{
+
+
+    .audio-clips {
         position: absolute;
         display: block;
         height: 100vh;
@@ -173,38 +228,48 @@ p{
         margin: 0;
         place-content: center;
         border-radius: 0;
-    
+
     }
 
-    .how-to > p{
+    .how-to>p {
         padding: 0px 12px 0px 12px;
     }
 
-    .carousel{
+    .carousel {
         display: block;
         position: absolute;
     }
-    .clips{
+
+    .clips {
         display: block;
         position: relative;
         place-content: center;
 
     }
 
-    .slide{
+    .slide {
         position: absolute;
         place-content: center;
         margin-top: 100%;
     }
 
-    .container-fluid{
-        padding: 0;
+    .container-fluid {
+        padding: 5% 7% 5% 15%;
     }
 
-    .sources{
+    .sources {
         font-size: 12px;
     }
 
 
-    
+    ul {
+        list-style: none;
+    }
+
+    li {
+        text-decoration: none;
+        list-style: none;
+        font-size: 10px;
+        text-align: left;
+    }
 }
