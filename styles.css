@@ -89,10 +89,6 @@ h1 {
     margin-bottom: 12px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> updatev2
 .footer {
     background-color: #031624;
     height: 100%;
@@ -121,9 +117,6 @@ h1 {
     color: #ffffff;
 }
 
-<<<<<<< HEAD
-@media (max-width: 476px){
-=======
 
 .credential,
 .sitemap-title {
@@ -131,7 +124,6 @@ h1 {
 }
 
 @media (max-width: 600px) {
->>>>>>> updatev2
     body {
         width: 100vw;
         place-content: center;
@@ -147,13 +139,6 @@ h1 {
         
     }
 
-<<<<<<< HEAD
-
-    #phonebooth{
-        display: block;
-        width: 100%;
-    }
-=======
     .interact-container {
         display: block;
     }
@@ -183,7 +168,6 @@ h1 {
 
 
 
->>>>>>> updatev2
 }
 
 @media (max-width: 800px) {
